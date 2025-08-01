@@ -46,7 +46,8 @@ The goal is to provide clear insights into:
 3. Converted `Trade (USD)` and `Weight (kg)` to numeric values.  
 4. Created a new column `Flow_Code` (0 = Import, 1 = Export).  
 5. Dropped rows with missing `Trade (USD)`.  
-6. Exported the cleaned dataset to **`cleaned_trade_data.csv`** for Power BI.  
+6. Exported the cleaned dataset to **`cleaned_trade_data.csv`** for Power BI.  <img width="660" height="276" alt="cleaning data 1" src="https://github.com/user-attachments/assets/1a081de6-5907-4175-8668-fa45a9e5107a" />
+
 
 ---
 
@@ -54,7 +55,9 @@ The goal is to provide clear insights into:
 A **Linear Regression model** was trained to predict `Trade (USD)` using:  
 - `Year`  
 - `Weight (kg)`  
-- `Flow_Code`  
+- `Flow_Code`
+-  <img width="979" height="509" alt="trade value diagram" src="https://github.com/user-attachments/assets/d780ee64-69c0-4f5f-b173-82d5d140179d" />
+
 
 ### 🔹 Model Evaluation Results
 - **RMSE:** 478,248,936.32  
@@ -65,13 +68,23 @@ Predictions were exported to **`predictions.csv`** for Power BI visualization.
 ---
 
 ## 📊 Power BI Dashboard
+<img width="1179" height="666" alt="power bi" src="https://github.com/user-attachments/assets/79966248-4e36-4b08-9c87-53ca8d8cf9cd" />
+
 ### Dashboard Features:
-✅ **World Map** – Trade distribution by country  
-✅ **Pie Chart** – Trade share by flow (Import/Export)  
-✅ **KPI Cards** – Total trade value and total weight traded  
-✅ **Bar Chart** – Total trade by top countries  
-✅ **Column Chart** – Weight traded by year  
-✅ **Line Chart** – Trade value trends over time  
+✅ **World Map** – Trade distribution by country  <img width="1370" height="794" alt="worl map and codes" src="https://github.com/user-attachments/assets/892506e7-18c0-4b7d-b101-f9bb88f97513" />
+
+✅ **Pie Chart** – Trade share by flow (Import/Export)  <img width="1083" height="827" alt="pichart" src="https://github.com/user-attachments/assets/cf636129-93cd-4469-a148-f99909a27bbe" />
+
+✅ **KPI Cards** – Total trade value and total weight traded  <img width="1043" height="819" alt="weight traded" src="https://github.com/user-attachments/assets/63b2806c-dacd-45c4-88ce-9a7cca58ec12" />
+
+✅ **Bar Chart** – Total trade by top countries  <img width="616" height="164" alt="total trade" src="https://github.com/user-attachments/assets/fef00692-d216-4e7c-a10e-f9572c03a37f" />
+<img width="1152" height="584" alt="total trade top country" src="https://github.com/user-attachments/assets/f7dbd765-00cb-4a09-9cf1-5dadb846d603" />
+
+
+✅ **Column Chart** – Weight traded by year  <img width="1043" height="819" alt="weight traded" src="https://github.com/user-attachments/assets/31a362a2-5c9b-46fd-8310-b9411daac609" />
+
+✅ **Line Chart** – Trade value trends over time   <img width="979" height="509" alt="trade value diagram" src="https://github.com/user-attachments/assets/c4f0c065-4ae3-4ef1-aea5-4e627e1fb991" />
+
 
 ### Interactivity:
 - Slicers for **Year, Country, Flow, and Commodity**  
