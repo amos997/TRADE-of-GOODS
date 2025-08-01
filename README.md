@@ -56,7 +56,6 @@ A **Linear Regression model** was trained to predict `Trade (USD)` using:
 - `Year`  
 - `Weight (kg)`  
 - `Flow_Code`
--  <img width="979" height="509" alt="trade value diagram" src="https://github.com/user-attachments/assets/d780ee64-69c0-4f5f-b173-82d5d140179d" />
 
 
 ### 🔹 Model Evaluation Results
